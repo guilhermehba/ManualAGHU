@@ -231,7 +231,7 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-  background-color: #97bf29;
+  background-color: #9c9e9f;
 }
 
 a.main-button {
@@ -249,7 +249,7 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #97bf29;
+  background-color: #9c9e9f;
 }
 
 button.main-button {
@@ -270,7 +270,7 @@ button.main-button {
 }
 
 button.main-button:hover {
-  background-color: #97bf29;
+  background-color: #9c9e9f;
 }
 
 .section-heading h2 {
@@ -309,15 +309,15 @@ header
 }
 
 .background-header .main-nav .nav > li:hover > a {
-  color: #97bf29 !important;
+  color: #9c9e9f !important;
 }
 
 .background-header .main-nav .nav > li > ul > li:hover > a {
-  color: #97bf29 !important;
+  color: #9c9e9f !important;
 }
 
 .background-header .nav li a.active {
-  color: #97bf29 !important;
+  color: #9c9e9f !important;
 }
 
 .header-area {
@@ -391,7 +391,7 @@ header
 }
 
 .header-area .main-nav .nav li:hover a {
-  color: #97bf29;
+  color: #9c9e9f;
 }
 
 .header-area .main-nav .nav li.submenu {
@@ -602,7 +602,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #97bf29;
+  color: #fff;
 }
 
 @media (max-width: 1200px) {
@@ -941,7 +941,7 @@ services
 
 .service-item:hover .icon,
 .service-item:hover a.main-button {
-  background-color: #97bf29;
+  background-color: #9c9e9f;
 }
 
 .service-item .icon {
@@ -1314,7 +1314,7 @@ preloader
 */
 #preloader {
   overflow: hidden;
-  background-image: linear-gradient(145deg, #00b4c6 0%, #0088e8 100%);
+  background-image: linear-gradient#97bf29;
   left: 0;
   right: 0;
   top: 0;
