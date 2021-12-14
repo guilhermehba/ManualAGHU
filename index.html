@@ -8,7 +8,8 @@
     <meta name="description" content="">
     <meta name="author" content="Template Mo">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
     <title>MANUAL AGHU</title>
     <!--
 
@@ -144,64 +145,87 @@ https://templatemo.com/tm-537-art-factory
                         <div class="icon">
                             <i><img src="assets/images/service-icon-01.png" alt=""></i>
                         </div>
-                        <h5 id="tuto1" class="service-title">TUTORIAL 1</h5>
-                        <p>Cadastro de Procedimento</p>
-                        <a href="#" class="main-button">Exibir</a>
+                        <h5  class="service-title">TUTORIAL 1</h5>
+                         <p>Sed a consequat velit. Morbi lectus sapien, vestibulum et sapien sit amet, ultrices malesuada odio. Donec non quam.</p>
+                        <a href="#" id="tuto1" class="main-button tuto">Exibir</a>
                     </div>
                     <div class="item service-item">
                         <div class="icon">
                             <i><img src="assets/images/service-icon-01.png" alt=""></i>
                         </div>
-                        <h5 id="tuto2" class="service-title">TUTORIAL 2</h5>
+                        <h5  class="service-title">TUTORIAL 2</h5>
                         <p>Pellentesque vitae urna ut nisi viverra tristique quis at dolor. In non sodales dolor, id egestas quam. Aliquam erat volutpat. </p>
-                        <a href="#" class="main-button">Exibir</a>
+                        <a href="#" id="tuto2" class="main-button tuto">Exibir</a>
                     </div>
                     <div class="item service-item">
                         <div class="icon">
                             <i><img src="assets/images/service-icon-01.png" alt=""></i>
                         </div>
-                        <h5 id="tuto3" class="service-title">TUTORIAL 3</h5>
+                        <h5  class="service-title">TUTORIAL 3</h5>
                         <p>Quisque finibus libero augue, in ultrices quam dictum id. Aliquam quis tellus sit amet urna tincidunt bibendum.</p>
-                        <a href="#" class="main-button">Exibir</a>
+                        <a href="#" id="tuto3" class="main-button tuto">Exibir</a>
                     </div>
                     <div class="item service-item">
                         <div class="icon">
                             <i><img src="assets/images/service-icon-01.png" alt=""></i>
                         </div>
-                        <h5 id="tuto4" class="service-title">TUTORIAL 4</h5>
+                        <h5  class="service-title">TUTORIAL 4</h5>
                         <p>Fusce sollicitudin feugiat risus, tempus faucibus arcu blandit nec. Duis auctor dolor eu scelerisque vestibulum.</p>
-                        <a href="#" class="main-button">Exibir</a>
+                        <a href="#" id="tuto4" class="main-button tuto">Exibir</a>
                     </div>
                     <div class="item service-item">
                         <div class="icon">
                             <i><img src="assets/images/service-icon-01.png" alt=""></i>
                         </div>
-                        <h5 id="tuto5" class="service-title">TUTORIAL 5</h5>
+                        <h5  class="service-title">TUTORIAL 5</h5>
                         <p>Curabitur aliquam eget tellus id porta. Proin justo sapien, posuere suscipit tortor in, fermentum mattis elit.</p>
-                        <a href="#" class="main-button">Exibir</a>
+                        <a href="#" id="tuto5" class="main-button tuto">Exibir</a>
                     </div>
                     <div class="item service-item">
                         <div class="icon">
                             <i><img src="assets/images/service-icon-01.png" alt=""></i>
                         </div>
-                        <h5 id="tuto6" class="service-title">TUTORIAL 6</h5>
+                        <h5  class="service-title">TUTORIAL 6</h5>
                         <p>Ut nibh velit, aliquam vitae pellentesque nec, convallis vitae lacus. Aliquam porttitor urna ut pellentesque.</p>
-                        <a href="#" class="main-button">Exibir</a>
+                        <a href="#" id="tuto6" class="main-button tuto">Exibir</a>
                     </div>
                     <div class="item service-item">
                         <div class="icon">
                             <i><img src="assets/images/service-icon-01.png" alt=""></i>
                         </div>
-                        <h5 id="tuto7" class="service-title">TUTORIAL 7</h5>
+                        <h5  class="service-title">TUTORIAL 7</h5>
                         <p>Sed a consequat velit. Morbi lectus sapien, vestibulum et sapien sit amet, ultrices malesuada odio. Donec non quam.</p>
-                        <a href="#" class="main-button">Exibir</a>
+                        <a href="#" id="tuto7" class="main-button tuto">Exibir</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- ***** Features Small End ***** -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="cursor: pointer;"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+            <div class="modal-body text-center">
+                <img alt="" src="" />
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal" style="cursor: pointer; background-color: #97bf29; border-radius: 3px">Sair</button>
+            </div>
+            </div>
+        </div>
+    </div>
 
+    <!-- ***** Features Small End ***** -->
+    <script>
+        $(".tuto").click(function() {
+            var url = $(this).find("img").attr("src");
+            $("#myModal img").attr("src", url);
+            $("#myModal").modal("show");
+        });
+    </script>
 
     <!-- ***** Frequently Question Start ***** -->
     <section class="section" id="frequently-question">
