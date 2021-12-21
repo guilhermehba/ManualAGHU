@@ -80,9 +80,3 @@ function prep_modal() {
 
     });
 }
-
-$(".tuto-login").click(function() {
-    var url = $(this).find("img").attr("src");
-    $("#myModallg img").attr("src", url);
-    $("#myModallg").modal("show");
-});
